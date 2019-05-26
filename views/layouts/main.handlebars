@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="MHS">
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" href="assets/img/favicon.html">
+
+    <title>Dashboard - dagadag</title>
+    <!--google font-->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="Plugins/lobicard/css/lobicard.css" rel="stylesheet">
+    <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="css/themify-icons/css/themify-icons.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body
+    class="app header-fixed left-sidebar-light left-sidebar-light-alt left-sidebar-fixed right-sidebar-fixed right-sidebar-overlay right-sidebar-hidden">
+
+    <!--===========header start===========-->
+    <header class="app-header navbar">
+
+        <!--brand start-->
+        <div class="navbar-brand">
+            <a class="" href="index.html">
+                <img src="images/dagdag.svg" srcset="images/dagdag.svg 2x" alt="" style="width: 150px; height: 98%;">
+            </a>
+        </div>
+        <!--brand end-->
+
+        <!--left side nav toggle start-->
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item d-lg-none">
+                <button class="navbar-toggler mobile-leftside-toggler" type="button"><i
+                        class="ti-align-right"></i></button>
+            </li>
+            <li class="nav-item d-md-down-none">
+                <a class="nav-link navbar-toggler left-sidebar-toggler" href="#"><i class=" ti-align-right"></i></a>
+            </li>
+
+        </ul>
+        <!--left side nav toggle end-->
+
+        <!--right side nav start-->
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item dropdown dropdown-slide">
+                <a class="nav-link nav-pill user-avatar" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="images/user.png" alt="John Doe">
+                </a>
+            </li>
+        </ul>
+
+        <!--right side nav end-->
+    </header>
+    <!--===========header end===========-->
+
+    <!--===========app body start===========-->
+    <div class="app-body">
+
+        <!--left sidebar start-->
+        <div class="left-sidebar">
+            <nav class="sidebar-menu">
+                <ul id="nav-accordion">
+                    <li class="sub-menu">
+                        <a href="dashboard.html" class="active">
+                            <i class=" ti-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="users">
+                            <i class="ti-bag"></i>
+                            <span>All users</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="transactions">
+                            <i class="ti-package"></i>
+                            <span>Transactions</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="reconcile-payment">
+                            <i class="ti-package"></i>
+                            <span>Reconcile Payment</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="merchants">
+                            <i class="ti-bag"></i>
+                            <span>Merchant</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="new-merchant">
+                            <i class="ti-plus"></i>
+                            <span>New Merchant</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="send-mail">
+                            <i class="ti-email"></i>
+                            <span>Send Mail</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="admin-users">
+                            <i class="ti-blackboard"></i>
+                            <span>Admin Users</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="app-notification">
+                            <i class="ti-email"></i>
+                            <span>App Notification</span>
+                        </a>
+
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="logout">
+                            <i class="ti-unlock"></i>
+                            <span>Logout</span>
+                        </a>
+
+                    </li>
+
+            </nav>
+        </div>
+        <!--left sidebar end-->
+
+        {{{ body }}}
+
+
+
+    </div>
+    <!--===========app body end===========-->
+
+    <!--===========footer start===========-->
+    <footer class="app-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    2019 © dagdag merchant
+                </div>
+                <div class="col-4">
+                    <a href="#" class="float-right back-top">
+                        <i class=" ti-arrow-circle-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--===========footer end===========-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Plugins/lobicard/js/lobicard.js"></script>
+    <script src="Plugins/jquery-ui-touch/jquery.ui.touch-punch-improved.js"></script>
+    <script class="include" type="text/javascript" src="Plugins/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="Plugins/jquery.scrollTo.min.js"></script>
+    <!--init scripts-->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
